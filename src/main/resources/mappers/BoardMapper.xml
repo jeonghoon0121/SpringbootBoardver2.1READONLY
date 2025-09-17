@@ -8,7 +8,7 @@
         <result property="name" column="name"/>
         <result property="description" column="description"/>
     </resultMap>
-    <select id="findAllboards" resultMap="boardResultMap">
+    <select id="findAllBoards" resultMap="boardResultMap">
         SELECT
         board_Id,
         name,

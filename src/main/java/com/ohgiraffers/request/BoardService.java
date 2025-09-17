@@ -15,8 +15,8 @@ public class BoardService {
 
 
     public List<BoardDTO> findAllBoards() {
-        System.out.println(boardMapper.findAllboards());
-        return boardMapper.findAllboards();
+        System.out.println(boardMapper.findAllBoards());
+        return boardMapper.findAllBoards();
 
     }
 
